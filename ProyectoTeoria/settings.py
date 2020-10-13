@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '#4)unt^rfh%oa-i(^4l%cpmv(t(r_9#9o1vb!x!pu#!i4*lz3#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://quiet-lake-90416.herokuapp.com/','127.0.0.1']
 
 
 # Application definition
